@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d5eef0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3ece4;
+    color: #333;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100px;
+    padding: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: #141414;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #0b8a9b;
+    text-decoration: none;
+}
+
+section.info {
+    text-align: center;
+    margin: 20px;
+}
+
+section.crm, section.contato {
+    text-align: center;
+    margin: 20px;
+}
+/* Estilos do Menu de Convites */
+.menu-estilos {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.menu-estilos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-estilos li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-estilos button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu-estilos button:hover {
+    background-color: #555;
+}
+
+/* Estilo da Galeria de Imagens */
+.galeria-estilo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.galeria-estilo div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeria-estilo img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.galeria-estilo img:hover {
+    border-color: #333;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input {
+    margin: 10px 0;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 176px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+#contatoButton {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contatoButton:hover {
+    background-color: #555;
+}
+
+/* Estilo do Carrossel */
+.carrossel {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.carrossel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrossel-container img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+section.crm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input {
+    margin: 10px 0;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+#contatoButton {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contatoButton:hover {
+    background-color: #555;
+}
+
+/* Estilo do QR Code */
+.qrcode {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilo do Footer */
+footer {
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}

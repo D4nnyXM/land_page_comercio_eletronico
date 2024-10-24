@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Personalizados - Convites</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>D&D Personalizados - Convites Digitais</h1>
+        <nav>
+            <ul>
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <!-- Menu de Estilos de Convites -->
+    <section class="menu-estilos">
+        <h2>Estilos de Convites</h2>
+        <ul>
+            <li><button onclick="mostrarEstilo('elegante')">Elegante</button></li>
+            <li><button onclick="mostrarEstilo('divertido')">Divertido</button></li>
+            <li><button onclick="mostrarEstilo('minimalista')">Minimalista</button></li>
+            <li><button onclick="mostrarEstilo('moderno')">Moderno</button></li>
+            <li><button onclick="mostrarEstilo('rustico')">Rústico</button></li>
+        </ul>
+    </section>
+
+    <!-- Seção de Imagens do Estilo Selecionado -->
+    <section class="galeria-estilo">
+        <h3>Imagens do estilo selecionado</h3>
+        <div id="galeria"></div>
+    </section>
+
+
+    
+
+    <section class="carrossel">
+        <h2>Veja nossos convites personalizados</h2>
+        <div class="carrossel-container">
+            <button id="prevButton">◀</button>
+            <img id="carrosselImg" src="img/convite1.jpg" alt="Convite Personalizado 1">
+            <button id="nextButton">▶</button>
+        </div>
+        <p id="carrosselDescription">Convite 1 - Elegante e Sofisticado</p>
+    </section>
+
+    <section class="qrcode">
+        <h3>Scan o QR Code para mais informações</h3>
+        <div id="qrcode"></div>
+    </section>
+
+    <section class="info">
+        <h2>Convites digitais personalizados para todas as ocasiões!</h2>
+        <p>Práticos, sustentáveis e únicos. Personalize o convite perfeito para o seu evento.</p>
+    </section>
+
+    <section class="crm">
+        <h3>Peça o seu convite</h3>
+        <form id="conviteForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="data">Data da Festa:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="local">Local da Festa:</label>
+            <input type="text" id="local" name="local" required>
+
+            <label for="local">Informações adicionais:</label>
+            <input type="text" id="inform" name="inform" required>
+
+            <button type="submit">Solicitar Convite</button>
+        </form>
+    </section>
+
+    <section class="contato">
+        <h3>Entre em Contato</h3>
+        <button id="contatoButton">Fale com o Vendedor</button>
+    </section>
+</article>
+    <!-- Footer com Direitos Reservados -->
+    <footer>
+        <p>&copy; 2024 D&D Personalizados. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
